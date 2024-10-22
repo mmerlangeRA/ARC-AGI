@@ -126,7 +126,6 @@ def rotate(image, angle):
         return image
     else:
         return np.rot90(image, k=angle // 90)
-    
 
 def mirror(image, axis):
     if axis == 'horizontal':
